@@ -1,0 +1,416 @@
+/*Comienzo clases de etiquetas generales*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 5rem;
+    
+}
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+}
+fieldset{
+    font-size: 2rem;
+}
+h3{
+    font-size: 25px;
+}
+header{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+footer{
+    background-color:black;
+    font-size: 1.5rem;
+    color: white;
+}
+footer input{
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    margin: 3px 3px;
+}
+body{
+    background-color: #ededed;
+}
+/* Fin clases de etiquetas generales */
+
+
+/* Comienzo clases imagenes*/
+.banner{
+    width: 50%;
+    height: 500px;
+    display: block;
+    margin: 0 auto 5px auto;
+    border-radius: 0 0 1rem 1rem;
+}
+.imgproductos{
+    width: 280px;
+    height: 280px;
+    border-style: solid;
+    margin: 2px;
+    border-radius: 10px;
+
+}
+.imgmuestra{
+    width: 60rem;
+    height: 60rem;
+    border-radius: 10px;
+
+}
+
+.cabezaPerfil{
+margin-bottom: 4rem;
+margin-top: 2rem;
+border-radius: 1rem;
+}
+.imgperfil{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: lightgray 2px solid;
+    margin: 0 2rem 0 2rem;
+}
+.imgperfilsecciones{
+    width: 8rem;
+    height: 8rem;
+    margin: 0 2rem 0 2rem ;
+}
+.perfilsecciones{
+    padding: 3rem 2rem 3rem 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.perfilsecciones:hover{
+    background-color: #f0f0f0;
+}
+.perfilseccionespadre{
+    width: fit-content;
+    height: fit-content;
+}
+.imgfooter{
+    margin: 2px 2px;
+}
+.imagencardproductos{
+    border-bottom: 1px lightgrey solid;
+    padding: 0.5rem 0.5rem;
+    width: 29rem;
+    height: 30rem;
+    border-radius: 1rem 1rem 0 0 ;
+}
+.userOpinionesImg{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.ImgMisCompras{
+    margin: 1rem 3rem;
+    width: 29rem;
+    height: 30rem;
+    border: lightgrey 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+/* Fin clases imagenes */
+
+
+/* Comienzo clases textos y otros */
+.barrabusqueda{
+    height: 3rem;
+    width: 17vw;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    margin: 0 0 0 5rem;
+    font-size: large;
+}
+.busquedalupa{
+    background-color: white;
+    border-radius:0 3px 3px 0;
+    border: 1px  solid black;
+    border-left: 0;
+    height: 3rem;
+}
+
+.textosinformativos{ 
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10rem;
+    text-align: center;
+}
+.textomvv{
+font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.titulosinformativos{
+    font-size: 6rem;
+    font-weight: bold;
+
+}
+.subtitulosinformativos{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.titulosSecciones{
+    font-size: 3rem;
+    margin: 1rem 0 1rem 2.8rem;
+}
+.subtitulosSecciones{
+    font-size: 2rem;
+    margin: 1rem 2.8rem 1rem 0;
+}
+.articuloscompras{
+border: solid 2px black;
+margin: 5px 5px;
+border-radius: 10px;
+padding: 5px;
+}
+.listanone{
+    list-style:none;
+    font-size: 2rem;
+    
+}
+.textocentro{
+    text-align: center;
+}
+
+.cuadrotexto{
+    margin: 10px 10px 5px 0;
+    width: 765px;
+    height: 155px;
+}
+.botoncontacto{
+    font-size:15px;
+    font-family: Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+    width:14rem;
+    height:5rem;
+    border-width:1px;
+    color:#ffffff;
+    border-color:#057fd0;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    text-shadow: 0px -1px 0px #5b6178;
+    background:rgba(51, 204, 255, 1);
+    margin:0 1rem 1rem 1rem;
+}
+.botoncontacto:hover{
+    background: #019ad2
+}
+.botonbusqueda {
+    color: black;
+    border-color:#0b0e07;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+    text-shadow:inset 0px 1px 0px #263666;
+    background:linear-gradient(#2dabf9, #0688fa);
+  }
+  
+  .botonbusqueda:hover {
+    background: linear-gradient(#0688fa, #2dabf9);
+  }
+
+.inputtexto{
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    margin: 3px 2px;
+}
+.textos{ 
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    font-size: 2rem;
+}
+.navtextos ul li{
+    font-size: 3rem;
+    list-style: none;
+}
+.preciocardsproductos{
+    font-size: 3rem;
+    font-weight:bolder;
+}
+.titulocardsproductos{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.cardsproductos{
+    border: lightgrey 1px solid;
+    width: 29rem;
+    height: 50rem;
+    border-radius: 1rem 1rem 0 0 ;
+}
+
+.ofertacardsprodcutos{
+    font-size: 2rem;
+    text-decoration: line-through;
+}
+.cardsproductos:hover{
+    box-shadow: 1px 8px 20px grey;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.nombreReviews{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem;
+}
+.estrellasReviews{
+    font-size: 2rem;
+    margin: 0 0 0 0.5rem;
+}
+.textoReviews{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.tituloMisCompras{
+    font-size: 4rem;
+}
+.descripcionMisCompras{
+    font-size: 3rem;
+    color: grey;
+}
+.EstadoProductoMisCompras1{
+    font-size: 2rem;
+    color: rgb(14, 197, 14);
+}
+.EstadoProductoMisCompras2{
+    font-size: 2rem;
+    color: rgb(224, 193, 12);
+}
+.EstadoProductoMisCompras3{
+    font-size: 2rem;
+    color: rgb(197, 14, 14);
+}
+/* Fin clases textos y otros */
+
+.padreheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.padrenav{
+    display: flex;
+    flex-direction: row;
+    gap: 0 6rem;
+    align-items: center;
+    font-size: 2.5rem;
+}
+.padrebarralogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.barranavegacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.infotextoimagender{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 2rem;
+}
+.infotextoimagenizq{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 2rem;
+}
+.misvisval{
+    display: flex;
+    flex-direction: column;
+}
+.reviewsCard{
+border: lightgrey 1px solid;
+max-width: 25vw;
+padding: 1rem 2rem;
+margin-bottom: 1rem;
+background-color: white;
+border-radius: 0.5rem;
+}
+.MisComprasCard{
+    border-bottom: lightgray 1px solid;
+    margin-bottom: 2rem;
+}
+.footercolumna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerfila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0.5rem;
+}
+.navitemsflex{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+.responsiveCardsMisCompras{
+    display: flex;
+}
+@media(max-width:576px)  {
+    .MisComprasCard{
+        display: flex; 
+        flex-direction:column;
+    }
+    .responsiveCardsMisCompras{
+        display: flex; 
+        flex-direction:column;
+        align-items: center;
+    }
+    .EstadoProductoMisCompras1{
+        text-align: center;
+    }
+    .EstadoProductoMisCompras2{
+        text-align: center;
+    }
+    .EstadoProductoMisCompras3{
+        text-align: center;
+    }
+    
+}
+@media (max-width:576px) {
+    .perfilsecciones{
+        flex-direction: column;
+    }
+    .subtitulosinformativos{
+        text-align: center;
+    }
+    
+}
