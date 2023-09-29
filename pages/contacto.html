@@ -49,58 +49,61 @@
           </nav>
     </header>
     <main>
-        <form action="" method="post">
-            <h3>Completa los datos</h3>
-            <div>
-                <input type="text" placeholder="Nombre" required class="inputtexto">
-            </div>
-            <div>
-                <input type="text" placeholder="Apellido" required class="inputtexto">
-            </div>
-            <div>
-                <input type="email" placeholder="Email" required class="inputtexto">
-            </div>
-            <div>
-                <input type="text" placeholder="Teléfono" required class="inputtexto">
-            </div>
-            <div>
-                <select name="Sexo" id="sexocontacto" required class="inputtexto">
-                <option value="H">Hombre</option>
-                <option value="M">Mujer</option>
-                <option value="NN">Prefiero no decirlo</option>
-                <option value="Otros">Otro (Aclarar)</option>
-                <input type="text" placeholder="Aclararación Sexo" class="inputtexto">
-                </select>
-            </div>
+        <div class="container-fluid formulariocontacto">
+            <form action="" method="post" class="">
+                <div class="d-flex responsiveContacto mt-3">
+                    <input class="form-control tamañoTextoContacto me-4 mb-4" type="text" placeholder="Nombre" required>
+                    <input class="form-control tamañoTextoContacto mb-4" type="text" placeholder="Apellido" required>
+                </div>
+                <div class="d-flex responsiveContacto">
+                    <input class="form-control tamañoTextoContacto me-4 mb-4" type="email" placeholder="Email" required>
+                    <input class="form-control tamañoTextoContacto mb-4" type="text" placeholder="Telefono" required>
+                </div>
+                <div class="d-flex  responsiveContacto">
+                    <select class="form-select tamañoTextoContacto me-4 mb-4" required>
+                        <option selected>Sexo</option>
+                        <option value="1">Hombre</option>
+                        <option value="2">Mujer</option>
+                        <option value="3">Prefiero no decirlo</option>
+                        <option value="4">Otro (aclarar)</option>
+                    </select>
+                    <input class="form-control tamañoTextoContacto mb-4" type="text" placeholder="Aclaracion sexo">
+                </div>
+                <div class="d-flex flex-column mb-3">
+                    <legend class="tamañoTextoContacto">Seleccione una opción</legend>
+                    <div class="form-check tamañoTextoContacto">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" required >
+                        <label class="form-check-label " for="exampleRadios1">Quiero hacer un reclamo</label>
+                    </div>
+                    <div class="form-check tamañoTextoContacto">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" required>
+                        <label class="form-check-label" for="exampleRadios2">Quiero hacer una consulta</label>
+                    </div>
+                    <div class="form-check tamañoTextoContacto">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" required>
+                        <label class="form-check-label" for="exampleRadios2">Estoy buscando empleo</label>
+                    </div>
+                    <div class="form-check tamañoTextoContacto">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4" required>
+                        <label class="form-check-label" for="exampleRadios2">Quiero un diseño personalizado</label>
+                    </div>
+                    <div class="form-check tamañoTextoContacto mb-3">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5" required>
+                        <label class="form-check-label" for="exampleRadios2">Otras consultas (aclarar)</label>
+                    </div>
+                    <input class="form-control tamañoTextoContacto" type="text" placeholder="Aclaracion">
+                </div>
                 <fieldset required>
-                    <legend>¿Cual es la razon del contacto?</legend>
-                    <div>
-                        <input type="radio" name="razoncontacto" id="razoncontacto1" value="razoncontacto1">
-                        <label for="razoncontacto1">Quiero hacer un reclamo</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="razoncontacto" id="razoncontacto2" value="razoncontacto2">
-                        <label for="razoncontacto2">Quiero hacer una consulta</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="razoncontacto" id="razoncontacto3" value="razoncontacto3">
-                        <label for="razoncontacto3">Estoy buscando empleo</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="razoncontacto" id="razoncontacto4" value="razoncontacto4">
-                        <label for="razoncontacto4">Quiero un diseño personalizado</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="razoncontacto" id="razoncontacto5" value="razoncontacto5" >
-                        <label for="razoncontacto5">Otros (Aclarar)</label>
-                        <input type="text" placeholder="Razon" class="inputtexto">
-                    </div>
-                    <div>
-                        <textarea name="Aclaraciones" id="aclaracionescontacto" cols="30" rows="10" class="cuadrotexto" placeholder="Describa la razón de su contacto" required></textarea>
-                    </div>
+                    <legend class="tamañoTextoContacto">¿Cual es la razon del contacto?</legend>
+                    <textarea class="form-control tamañoTextoContacto mb-3" rows="4"></textarea>
+                    <div class="mb-3">
+                        <label for="formFileMultiple" class="form-label">Adjunta algun archivo en caso de ser necesario:</label>
+                        <input class="form-control tamañoTextoContacto" type="file" id="formFileMultiple" multiple>
+                      </div>
                     <input type="submit" value="Enviar formulario" class="botoncontacto"/>
-            </fieldset>
-        </form>
+                </fieldset>
+            </form>
+        </div>
     </main>
     <footer class="footerfila">
         <div class="footercolumna">

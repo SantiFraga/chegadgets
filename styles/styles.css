@@ -122,6 +122,12 @@ border-radius: 1rem;
     border-radius: 5px;
     background-color: white;
 }
+.formulariocontacto{
+    background-color: white;
+    max-width: 70vw;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
 /* Fin clases imagenes */
 
 
@@ -307,6 +313,10 @@ padding: 5px;
     font-size: 2rem;
     color: rgb(197, 14, 14);
 }
+.tamañoTextoContacto{
+    font-size: 2rem;
+}
+
 /* Fin clases textos y otros */
 
 .padreheader{
@@ -384,6 +394,9 @@ border-radius: 0.5rem;
 .responsiveCardsMisCompras{
     display: flex;
 }
+.responsiveContacto{
+    display: flex;
+}
 @media(max-width:576px)  {
     .MisComprasCard{
         display: flex; 
@@ -413,4 +426,9 @@ border-radius: 0.5rem;
         text-align: center;
     }
     
+}
+@media (max-width:576px) {
+    .responsiveContacto{
+        flex-direction: column;
+    }
 }
