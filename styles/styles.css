@@ -62,10 +62,8 @@ body{
 
 }
 .imgmuestra{
-    width: 60rem;
-    height: 60rem;
     border-radius: 10px;
-    max-width: 100%;
+    width: 80%;
     height: auto;
 
 }
@@ -106,7 +104,7 @@ border-radius: 1rem;
 .imagencardproductos{
     border-bottom: 1px lightgrey solid;
     padding: 0.5rem 0.5rem;
-    width: 29rem;
+    width: auto;
     height: 30rem;
     border-radius: 1rem 1rem 0 0 ;
 }
@@ -135,7 +133,6 @@ border-radius: 1rem;
 /* Comienzo clases textos y otros */
 .barrabusqueda{
     height: 3rem;
-    width: 17vw;
     border-radius: 0.5rem;
     border: 1px solid black;
     margin: 0 0 0 5rem;
@@ -287,6 +284,7 @@ padding: 5px;
     width: 29rem;
     height: 50rem;
     border-radius: 1rem 1rem 0 0 ;
+    margin-bottom: 2rem;
 }
 
 .ofertacardsprodcutos{
@@ -425,7 +423,8 @@ padding: 5px;
 }
 .reviewsCard{
 border: lightgrey 1px solid;
-max-width: 25vw;
+width: 100%;
+height: auto;
 padding: 1rem 2rem;
 margin-bottom: 1rem;
 background-color: white;
@@ -435,11 +434,7 @@ border-radius: 0.5rem;
     border-bottom: lightgray 1px solid;
     margin-bottom: 2rem;
 }
-.navitemsflex{
-    display: flex;
-    flex-direction: row;
-    gap: 6rem;
-}
+
 .responsiveCardsMisCompras{
     display: flex;
 }
@@ -479,7 +474,7 @@ border-radius: 0.5rem;
     opacity: 0.4
 }
 
-@media(max-width:576px)  {
+@media(max-width:992px)  {
     .MisComprasCard{
         display: flex; 
         flex-direction:column;
@@ -506,8 +501,40 @@ border-radius: 0.5rem;
     }
     .subtitulosinformativos{
         text-align: center;
+        font-size: 2.5rem;
     }
-    
+    .textosinformativos{
+        margin: 0 0 0 0;
+        font-size: 2rem;
+    }
+    .titulosinformativos{
+        font-size: 4rem;
+    }
+    .textomvv{
+        font-size: 2.5rem;
+    }
+    #navbarResponsive{
+        display: flex;
+        flex-direction: column;
+    }
+    .barrabusqueda{
+        margin: 0 0 0 0 ;
+    }
+    .titulosSecciones{
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    .subtitulosSecciones{
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    .formulariocontacto{
+        max-width: 100%;
+    }
+    .ImgMisCompras{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 @media (max-width:576px) {
     .responsiveContacto{
