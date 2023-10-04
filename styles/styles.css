@@ -314,10 +314,12 @@ padding: 5px;
 }
 .tituloMisCompras{
     font-size: 4rem;
+    max-width: 40rem;
 }
 .descripcionMisCompras{
     font-size: 3rem;
     color: grey;
+    max-width: 40rem;
 }
 .EstadoProductoMisCompras1{
     font-size: 2rem;
@@ -493,7 +495,12 @@ border-radius: 0.5rem;
     .EstadoProductoMisCompras3{
         text-align: center;
     }
-    
+    .tituloMisCompras{
+        text-align: center;
+    }
+    .descripcionMisCompras{
+        text-align: center;
+    }
 }
 @media (max-width:576px) {
     .perfilsecciones{
