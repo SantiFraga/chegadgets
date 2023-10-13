@@ -1,0 +1,161 @@
+.barrabusqueda{
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    margin: 0 0 0 5rem;
+    font-size: large;
+}
+.busquedalupa{
+    background-color: white;
+    border-radius:0 3px 3px 0;
+    border: 1px  solid black;
+    border-left: 0;
+    height: 3rem;
+}
+.textosinformativos{ 
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 4rem;
+    margin: 0 10rem;
+    text-align: center;
+}
+.textomvv{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.titulosinformativos{
+    font-size: 6rem;
+    font-weight: bold;
+
+}
+.subtitulosinformativos{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.titulosSecciones{
+    font-size: 3rem;
+    margin: 1rem 0 1rem 2.8rem;
+}
+.subtitulosSecciones{
+    font-size: 2rem;
+    margin: 1rem 2.8rem 1rem 0;
+}
+.articuloscompras{
+    border: solid 2px black;
+    margin: 5px 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.listanone{
+    list-style:none;
+    font-size: 2rem;
+}
+.cuadrotexto{
+    margin: 10px 10px 5px 0;
+    width: 765px;
+    height: 155px;
+}
+.inputtexto{
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    margin: 3px 2px;
+}
+.textos{ 
+    font-family: "Roboto", sans-serif;
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: -1rem;
+}
+.navtextos ul li{
+    font-size: 3rem;
+    list-style: none;
+}
+.preciocardsproductos{
+    font-size: 3rem;
+    font-weight:bolder;
+}
+.titulocardsproductos{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.cardsproductos{
+    border: lightgrey 1px solid;
+    width: 29rem;
+    height: 50rem;
+    border-radius: 1rem 1rem 0 0 ;
+    margin-bottom: 2rem;
+}
+
+.ofertacardsprodcutos{
+    font-size: 2rem;
+    text-decoration: line-through;
+}
+.cardsproductos:hover{
+    box-shadow: 1px 8px 20px grey;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.nombreReviews{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem;
+}
+.estrellasReviews{
+    font-size: 2rem;
+    margin: 0 0 0 0.5rem;
+}
+.textoReviews{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.tituloMisCompras{
+    font-size: 4rem;
+    max-width: 40rem;
+}
+.descripcionMisCompras{
+    font-size: 3rem;
+    color: grey;
+    max-width: 40rem;
+}
+.EstadoProductoMisCompras1{
+    font-size: 2rem;
+    color: rgb(14, 197, 14);
+}
+.EstadoProductoMisCompras2{
+    font-size: 2rem;
+    color: rgb(224, 193, 12);
+}
+.EstadoProductoMisCompras3{
+    font-size: 2rem;
+    color: rgb(197, 14, 14);
+}
+.tamañoTextoContacto{
+    font-size: 2rem;
+}
+.textolink{
+    color: #057fd0; 
+    text-decoration: none;
+    border-bottom: 1px black dashed;
+}
+.reviewsCard{
+    border: lightgrey 1px solid;
+    width: 100%;
+    height: auto;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    }
+    .MisComprasCard{
+        border-bottom: lightgray 1px solid;
+        margin-bottom: 2rem;
+    }

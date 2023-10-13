@@ -1,0 +1,117 @@
+.banner{
+    width: 50%;
+    height: 500px;
+    display: block;
+    margin: 0 auto 5px auto;
+    border-radius: 0 0 1rem 1rem;
+}
+.imgproductos{
+    width: 280px;
+    height: 280px;
+    border-style: solid;
+    margin: 2px;
+    border-radius: 10px;
+
+}
+.imgmuestra{
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+}
+.cabezaPerfil{
+margin-bottom: 4rem;
+margin-top: 2rem;
+border-radius: 1rem;
+}
+.imgperfil{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: lightgray 2px solid;
+    margin: 0 2rem 0 2rem;
+}
+.imgperfilsecciones{
+    width: 8rem;
+    height: 8rem;
+    margin: 0 2rem 0 2rem ;
+}
+.perfilsecciones{
+    padding: 3rem 2rem 3rem 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.perfilsecciones:hover{
+    background-color: #f0f0f0;
+}
+.perfilseccionespadre{
+    width: fit-content;
+    height: fit-content;
+}
+.imgfooter{
+    margin: 2px 2px;
+}
+.imagencardproductos{
+    border-bottom: 1px lightgrey solid;
+    padding: 0.5rem 0.5rem;
+    width: auto;
+    height: 30rem;
+    border-radius: 1rem 1rem 0 0 ;
+}
+.userOpinionesImg{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.ImgMisCompras{
+    margin: 1rem 3rem;
+    width: 29rem;
+    height: 30rem;
+    border: lightgrey 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+.formulariocontacto{
+    background-color: white;
+    max-width: 70vw;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.responsiveCardsMisCompras{
+    display: flex;
+}
+.responsiveContacto{
+    display: flex;
+}
+
+.rating {
+    margin-top: -10px;
+    margin-left: -4px;
+    float: left;
+}
+.rating>input {
+    display: none
+}
+.rating>label {
+        position: relative;
+    width: 19px;
+    font-size: 25px;
+    color: #FFD700;
+    cursor: pointer;
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+.rating>input:checked~label:before {
+    opacity: 1
+}
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}

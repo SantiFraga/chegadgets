@@ -1,0 +1,98 @@
+@media(max-width:992px)  {
+    .MisComprasCard{
+        display: flex; 
+        flex-direction:column;
+    }
+    .responsiveCardsMisCompras{
+        display: flex; 
+        flex-direction:column;
+        align-items: center;
+    }
+    .EstadoProductoMisCompras1{
+        text-align: center;
+    }
+    .EstadoProductoMisCompras2{
+        text-align: center;
+    }
+    .EstadoProductoMisCompras3{
+        text-align: center;
+    }
+    .tituloMisCompras{
+        text-align: center;
+    }
+    .descripcionMisCompras{
+        text-align: center;
+    }
+}
+@media (max-width:576px) {
+    .perfilsecciones{
+        flex-direction: column;
+    }
+    .subtitulosinformativos{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .textosinformativos{
+        margin: 0 0 0 0;
+        font-size: 2rem;
+    }
+    .titulosinformativos{
+        font-size: 4rem;
+    }
+    .textomvv{
+        font-size: 2.5rem;
+    }
+    #navbarResponsive{
+        display: flex;
+        flex-direction: column;
+    }
+    .barrabusqueda{
+        margin: 0 0 0 0 ;
+    }
+    .titulosSecciones{
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    .subtitulosSecciones{
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    .formulariocontacto{
+        max-width: 100%;
+    }
+    .ImgMisCompras{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media (max-width:576px) {
+    .responsiveContacto{
+        flex-direction: column;
+    }
+}
+@media (max-width:1200px) {
+    #QS1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #QS2 {
+        display: flex;
+        flex-direction:column !important;
+    }
+}
+@media (max-width:1400px) {
+    #inicioImg1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #inicioImg2 {
+        display: flex;
+        flex-direction:column !important;
+    }
+}
+@media (max-width:576px){
+    #footerResponsive{
+        display: flex;
+        flex-direction: column;
+    }
+}
