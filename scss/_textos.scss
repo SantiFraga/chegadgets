@@ -155,7 +155,24 @@
     background-color: white;
     border-radius: 0.5rem;
     }
-    .MisComprasCard{
-        border-bottom: lightgray 1px solid;
-        margin-bottom: 2rem;
-    }
+.MisComprasCard{
+    border-bottom: lightgray 1px solid;
+    margin-bottom: 2rem;
+}
+.preciosSeccionCompras{
+    font-size: nth($sizeTexto , 3);
+    font-weight: 700;
+}
+.selectorCantidad{
+    font-size: nth($sizeTexto, 2);
+    width: 6rem;
+}
+.cardSeccionCompras{
+    border: 1px solid lightgrey;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+}
+.Acordion{
+    max-width: 59vw;
+    font-size: 1.5rem;
+}

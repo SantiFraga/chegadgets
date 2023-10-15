@@ -23,6 +23,13 @@
     .descripcionMisCompras{
         text-align: center;
     }
+    #SeccionCompras{
+        display: flex;
+        flex-direction: column;
+    }
+    .Acordion{
+        max-width: 80vw;
+    }
 }
 @media (max-width:576px) {
     .perfilsecciones{

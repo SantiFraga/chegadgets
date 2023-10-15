@@ -49,6 +49,10 @@ body {
   background-color: #ededed;
 }
 
+p {
+  margin-bottom: 0;
+}
+
 .barrabusqueda {
   height: 3rem;
   border-radius: 0.5rem;
@@ -238,12 +242,25 @@ body {
   margin-bottom: 2rem;
 }
 
-.banner {
-  width: 50%;
-  height: 500px;
-  display: block;
-  margin: 0 auto 5px auto;
-  border-radius: 0 0 1rem 1rem;
+.preciosSeccionCompras {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.selectorCantidad {
+  font-size: 2rem;
+  width: 6rem;
+}
+
+.cardSeccionCompras {
+  border: 1px solid lightgrey;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+}
+
+.Acordion {
+  max-width: 59vw;
+  font-size: 1.5rem;
 }
 
 .imgproductos {
@@ -375,6 +392,23 @@ body {
   opacity: 0.4;
 }
 
+.imgSeccionCompras {
+  width: 50rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.fondoSeccionCompras {
+  background-color: white;
+  max-width: max-content;
+  height: auto;
+  gap: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem 2rem;
+  border-radius: 5px;
+}
+
 .botonEnviarOpinion {
   font-size: 15px;
   font-family: Arial;
@@ -487,6 +521,13 @@ body {
   }
   .descripcionMisCompras {
     text-align: center;
+  }
+  #SeccionCompras {
+    display: flex;
+    flex-direction: column;
+  }
+  .Acordion {
+    max-width: 80vw;
   }
 }
 @media (max-width: 576px) {
