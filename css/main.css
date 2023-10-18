@@ -10,12 +10,12 @@ html {
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto" sans-serif;
   font-size: 5rem;
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto" sans-serif;
   font-size: 3rem;
 }
 
@@ -131,7 +131,7 @@ p {
 }
 
 .textos {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto" sans-serif;
   font-size: 3.5rem;
   text-decoration: none;
   color: inherit;
@@ -261,6 +261,11 @@ p {
 .Acordion {
   max-width: 59vw;
   font-size: 1.5rem;
+}
+
+.noLinks {
+  text-decoration: none;
+  color: black;
 }
 
 .imgproductos {
@@ -409,6 +414,16 @@ p {
   border-radius: 5px;
 }
 
+.gradienteFondo {
+  background: #33ccff;
+  background: linear-gradient(270deg, rgb(51, 204, 255) 0%, rgb(237, 237, 237) 100%);
+}
+
+.gradienteFondoinv {
+  background: #33ccff;
+  background: linear-gradient(90deg, rgb(51, 204, 255) 0%, rgb(237, 237, 237) 100%);
+}
+
 .botonEnviarOpinion {
   font-size: 15px;
   font-family: Arial;
@@ -540,6 +555,7 @@ p {
   .subtitulosinformativos {
     text-align: center;
     font-size: 2.5rem;
+    margin-bottom: 0.5rem;
   }
   .textosinformativos {
     margin: 0 0 0 0;
@@ -587,6 +603,12 @@ p {
   #QS2 {
     display: flex;
     flex-direction: column !important;
+  }
+  .gradienteFondo {
+    background: linear-gradient(180deg, rgb(51, 204, 255) 0%, rgb(237, 237, 237) 100%);
+  }
+  .gradienteFondoinv {
+    background: linear-gradient(0deg, rgb(51, 204, 255) 0%, rgb(237, 237, 237) 100%);
   }
 }
 @media (max-width: 1400px) {

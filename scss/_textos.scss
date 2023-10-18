@@ -66,7 +66,7 @@
     margin: 3px 2px;
 }
 .textos{ 
-    font-family: "Roboto", sans-serif;
+    font-family: $fuente;
     font-size: 3.5rem;
     text-decoration: none;
     color: inherit;
@@ -175,4 +175,8 @@
 .Acordion{
     max-width: 59vw;
     font-size: 1.5rem;
+}
+.noLinks{
+text-decoration: none;
+color:black;
 }
