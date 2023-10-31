@@ -10,3 +10,8 @@
 .botonbusqueda:hover{
     background:nth($celesteBase, 2);
 }
+.perfilsecciones:hover{
+    background-color: #dfdfdf;
+    transform: scale(1.03);
+    transition: transform 0.3s;
+}
