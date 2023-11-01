@@ -9,3 +9,8 @@
 $celesteBase: #33ccff, #2dabf9;
 $sizeTexto: 1rem, 2rem, 3rem, 4rem, 5rem, 6rem;
 $fuente: "Roboto" sans-serif;
+
+@mixin agrandar ($escala, $tiempo){
+    transform: scale($escala);
+    transition:all, $tiempo;
+}

@@ -12,6 +12,11 @@
 }
 .perfilsecciones:hover{
     background-color: #dfdfdf;
-    transform: scale(1.03);
-    transition: transform 0.3s;
+    @include agrandar (1.03, 0.3s)
+}
+.imgmuestra:hover{
+    @include agrandar (1.05, 0.6s)
+}
+.reviewsCard:hover{
+    @include agrandar(1.050, 0.5s)
 }
